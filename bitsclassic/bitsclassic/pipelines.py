@@ -18,9 +18,9 @@ class BitsclassicPipeline:
     @classmethod
     def from_crawler(cls, crawler):
         return cls(
-            mongo_uri=crawler.settings.get('MONGODB_URI'),
-            mongo_db=crawler.settings.get('MONGODB_DATABASE'),
-            mongo_collection=crawler.settings.get('MONGODB_COLLECTION')
+            mongo_uri=crawler.settings.get("MONGODB_URI"),
+            mongo_db=crawler.settings.get("MONGODB_DATABASE"),
+            mongo_collection=crawler.settings.get("MONGODB_COLLECTION"),
         )
 
     def open_spider(self, spider):
