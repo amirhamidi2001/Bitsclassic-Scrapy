@@ -1,4 +1,3 @@
-```markdown
 # Bitsclassic Scrapy Spider
 
 A Scrapy spider that extracts product data (title, categories, URL, currency, and availability status) from [bitsclassic.com](https://bitsclassic.com).  
